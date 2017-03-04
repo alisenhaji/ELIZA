@@ -46,14 +46,14 @@ Examples of actual conversations done with Eliza:
 - Basic hashes to conjugate the verbs ‘to do’ and ‘to be’, in addition to another hash to convert pronouns for questions.
 - It prompt the user for his/her name, then start the getting input from the user.
 - It first take the output using the input function(), convert it to lower case and apply the chomp function on it.
-- The input goes through some filter conditions that use regular expression to catch some paterns.
+- The input goes through some filter conditions that use regular expression to catch some patterns.
   The kind of pattern it catches are:
     * if the user is repeating himself
     * When the user is talking about something using 'MY' or 'IT', or talking about someone using 'HE' or 'SHE'
     * when the user is trying to make an argument
     * feelings and emotions
     * Responding to the question 'Who are you?'
-    * when the user is addressing tio Eliza
+    * when the user is addressing to Eliza
     * questions
     * when the user is being negative
     * when the user is being confused
