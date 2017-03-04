@@ -8,7 +8,7 @@ Notice: You should have Perl already installed in your machine.
 
 Examples of actual conversations done with Eliza:
 
-E.g. 1  
+<b>E.g. 1</b>  
 	Eliza> Hello, my name is Eliza, what's yours?  
 	User> Ali  
 	Eliza> Nice to meet you Ali, How can I help you?  
@@ -26,7 +26,7 @@ E.g. 1
 	Eliza> Are you sure that's the only reason?   
 	Ali>  
     
-E.g. 2  
+<b>E.g. 2</b>  
     Eliza> Hello, my name is Eliza, what's yours?  
     User> Hi Eliza, I am Ali  
     Eliza> Nice to meet you Ali, How can I help you?   
@@ -42,7 +42,7 @@ E.g. 2
     Eliza> It's fine, just tell me how do you feel!  
     Ali>  
 
-Overview on the algorithm used:
+<b>Overview of the program:</b>  
 - Basic hashes to conjugate the verbs ‘to do’ and ‘to be’, in addition to another hash to convert pronouns for questions.
 - It prompt the user for his/her name, then start the getting input from the user.
 - It first take the output using the input function(), convert it to lower case and apply the chomp function on it.
