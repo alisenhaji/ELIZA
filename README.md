@@ -8,39 +8,39 @@ Notice: You should have Perl already installed in your machine.
 
 Examples of actual conversations done with Eliza:
 
-E.g. 1
-    Eliza> Hello, my name is Eliza, what's yours?
-    User> Ali
-    Eliza> Nice to meet you Ali, How can I help you?
-    Ali> You can't, nobody can ..
-    Eliza> You are maybe right, but let's try?
-    Ali> Ok, I am feeling very bad
-    Eliza> Ohh! why are you feeling bad?
-    Ali> Because I am bored
-    Eliza> Are you sure that's the only reason?
-    Ali> Not really, I have no friends
-    Eliza> Could you be more precise!
-    Ali> I have no one as a friend
-    Eliza> Why do you have no one as a friend?
-    Ali> Because I am a bad person
-    Eliza> Are you sure that's the only reason?
-    Ali>
+E.g. 1  
+	Eliza> Hello, my name is Eliza, what's yours?  
+	User> Ali  
+	Eliza> Nice to meet you Ali, How can I help you?  
+	Ali> You can't, nobody can ..  
+	Eliza> You are maybe right, but let's try?  
+	Ali> Ok, I am feeling very bad  
+	Eliza> Ohh! why are you feeling bad?  
+	Ali> Because I am bored  
+	Eliza> Are you sure that's the only reason?  
+	Ali> Not really, I have no friends  
+	Eliza> Could you be more precise!  
+	Ali> I have no one as a friend  
+	Eliza> Why do you have no one as a friend?  
+	Ali> Because I am a bad person  
+	Eliza> Are you sure that's the only reason?   
+	Ali>  
     
-E.g. 2
-    Eliza> Hello, my name is Eliza, what's yours?
-    User> Hi Eliza, I am Ali
-    Eliza> Nice to meet you Ali, How can I help you?
-    Ali> I need to talk to someone
-    Eliza> All you need is love. But a little chocolate now and then doesn't hurt.
-    Ali> HAHA, you made me laugh! Who are you again?
-    Eliza> I am Eliza, your psychiatric!
-    Ali> Oh great! How can I overcome my bad mood?
-    Eliza> Tell me more about your bad mood?.
-    Ali> I feel rageful
-    Eliza> I am glad you are sharing your thoughts. Can you tell me why do you feel rageful?
-    Ali> I don't know
-    Eliza> It's fine, just tell me how do you feel!
-    Ali>
+E.g. 2  
+    Eliza> Hello, my name is Eliza, what's yours?  
+    User> Hi Eliza, I am Ali  
+    Eliza> Nice to meet you Ali, How can I help you?   
+    Ali> I need to talk to someone  
+    Eliza> All you need is love. But a little chocolate now and then doesn't hurt.  
+    Ali> HAHA, you made me laugh! Who are you again?  
+    Eliza> I am Eliza, your psychiatric!  
+    Ali> Oh great! How can I overcome my bad mood?  
+    Eliza> Tell me more about your bad mood?.  
+    Ali> I feel rageful  
+    Eliza> I am glad you are sharing your thoughts. Can you tell me why do you feel rageful?  
+    Ali> I don't know  
+    Eliza> It's fine, just tell me how do you feel!  
+    Ali>  
 
 Overview on the algorithm used:
 - Basic hashes to conjugate the verbs ‘to do’ and ‘to be’, in addition to another hash to convert pronouns for questions.
